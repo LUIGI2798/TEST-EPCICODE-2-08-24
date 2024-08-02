@@ -44,6 +44,8 @@ header > button {
   border-color: #e22d0e;
   margin: 5%;
   color: white;
+  border-radius: 8px;
+  padding: 3%;
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 main {
@@ -77,16 +79,20 @@ main > img {
 }
 
 .epicodeg > h1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 800;
+  padding: 5%;
 }
 
 .epicodeg > h1 + p {
   font-style: italic;
+  padding-bottom: 5%;
 }
 
 h3 {
   color: #25a2c3;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .foto1 > img {
@@ -98,10 +104,28 @@ h3 {
   border: solid 1px #dee1e3;
 }
 
-footer > h1 {
-  color: white;
-  font-weight: 790;
-  font-size: 30px;
+footer {
   text-align: center;
   background-color: #25a2c3;
+  padding: 10%;
+  line-height: 26px;
+}
+
+footer > h1 {
+  font-size: 35px;
+  color: white;
+  padding: 5%;
+}
+footer > a {
+  color: #c8e7f0;
+}
+
+footer > p,
+footer > p > a {
+  color: #c8e7f0;
+}
+
+.line1 {
+  border-top: #c8e7f0 solid 1px;
+  margin: 5% 25%;
 }
